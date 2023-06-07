@@ -4,7 +4,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
-    publicPath: "http://localhost:3002/",
+    publicPath: "https://cdn.jsdelivr.net/gh/Mogget24/module-federation-state-management/redux/store/dist/",
   },
 
   resolve: {
