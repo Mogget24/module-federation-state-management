@@ -44,7 +44,7 @@ module.exports = {
       name: "nav",
       filename: "remoteEntry.js",
       remotes: {
-        store: "store@http://localhost:3002/remoteEntry.js",
+        store: "store@https://cdn.jsdelivr.net/gh/Mogget24/module-federation-state-management/redux/store/dist/remoteEntry.js",
       },
       exposes: {
         "./Header": "./src/Header",
